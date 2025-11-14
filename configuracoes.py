@@ -4,9 +4,11 @@ class Configurações():
     """Armazenas todas as confugrações de Invasão Alienígena"""
 
     def __init__(self):
-        """Connfigurações de tela"""
+        """Configurações de tela"""
         self.screen_width = 1200
         self.screen_height = 750
         self.bg_color = (230, 230, 230)
+
+        self.nave_fator_velocidade = 0.5
 
         
